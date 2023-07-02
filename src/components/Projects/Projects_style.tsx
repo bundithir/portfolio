@@ -1,0 +1,1 @@
+export const Btn = 'bg-[#192734] py-2 border duration-300'
