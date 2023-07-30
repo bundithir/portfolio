@@ -11,7 +11,7 @@ export type data = {
 export const DataProject : data[]= [
     {
         name : 'RoboFriend',
-        details : '',
+        details : "The project from the Udemy'course that learn about pull free API",
         stacks : [
             'React.js' , 'CSS'
         ],
@@ -21,7 +21,7 @@ export const DataProject : data[]= [
     },
     {
         name : 'Movie-app',
-        details : 'A movie search app that has signup and signin system',
+        details : "A movie search app that uses TMDB'API and has API for signin-signup",
         stacks : [
             'Tailwind CSS' , 'React.js' , 'Express.js' , 'PostgreSQL'
         ],
@@ -41,9 +41,9 @@ export const DataProject : data[]= [
     },
     {
         name : 'Pee-ShopTS',
-        details : "Build an e-commerce application using React.ts and API to fetch data for products and API for signin and signup",
+        details : "Build an e-commerce application using React.ts and API to pull data for products , API for signin-signup , using AntD table for CRUD products for Admin and have Stripe's payment system.",
         stacks : [
-            'Tailwind CSS' , 'React.ts' , 'Express.js' , 'PostgreSQL' , 'Redux-toolkit'
+            'Tailwind CSS' , 'React.ts' , 'Express.js' , 'PostgreSQL' ,'Stripe' ,'Ant Design', 'Redux-toolkit'
         ],
         image : '/ShopTS.PNG',
         code : 'https://github.com/bundithir/PeeShop-ts',
