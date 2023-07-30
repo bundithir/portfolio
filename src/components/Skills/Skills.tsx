@@ -7,7 +7,7 @@ const Skills = () =>{
                     <Ping/>
                     <p>Skills</p>
                 </div>
-                <p className="text-center max-w-[500px] mx-auto text-[#8899A6] px-2">I have learned from courses on Udemy. The courses I learnt are <span>
+                <p className="text-center max-w-[500px] mx-auto text-[#8899A6] px-2">I have learned from courses on Udemy. The courses I learned are <span>
                     <a href="https://www.udemy.com/certificate/UC-752af901-062b-455f-b7fe-0e1b3a0a6b66/" target="blank" className="underline">The Complete Web Developer in 2023</a> and <a href="https://www.udemy.com/certificate/UC-4a98c174-42ce-4d04-ad6d-7f2ec6c4284e/" target="blank" className="underline">Complete React Developer in 2023</a> 
                 </span> 
                 </p>

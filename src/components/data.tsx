@@ -41,7 +41,7 @@ export const DataProject : data[]= [
     },
     {
         name : 'Pee-ShopTS',
-        details : "Build an e-commerce application using React.ts and API to pull data for products , API for signin-signup , using AntD table for CRUD products for Admin and have Stripe's payment system.",
+        details : "Build an e-commerce application using React.ts and API to pull data for products , API for signin-signup , using AntD table to CRUD products for Admin and have Stripe's payment system.",
         stacks : [
             'Tailwind CSS' , 'React.ts' , 'Express.js' , 'PostgreSQL' ,'Stripe' ,'Ant Design', 'Redux-toolkit'
         ],
