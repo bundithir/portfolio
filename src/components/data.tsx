@@ -4,7 +4,7 @@ export type data = {
         stacks : string[],
         image : string ,
         code : string , 
-        view : string
+        view? : string
     }
 
 
@@ -48,6 +48,16 @@ export const DataProject : data[]= [
         image : '/ShopTS.PNG',
         code : 'https://github.com/bundithir/PeeShop-ts',
         view : 'https://peeshop-ts.netlify.app/'
+    },
+    {
+        name : 'FormAntD',
+        details : "Build a single page application by Ant Design that can store personal data and CRUD data on Local Storage , use Redux-toolkit manage form data instead of useState .",
+        stacks : [
+            'SASS' , 'React.ts' , 'Ant Design', 'Redux-toolkit'
+        ],
+        image : '/FormAntd.PNG',
+        code : 'https://github.com/bundithir/FormAntD',
+        view : 'https://antformbd.netlify.app/'
     }
 ]
 

@@ -1,8 +1,10 @@
 import { data } from "../data"
 
-const link = 'border-b-4 border-transparent hover:border-red-500 duration-300'
-
-const Work = ( { work } : any | data ) =>{
+const link = 'border-b-4 border-transparent bg-red-500 px-1 rounded hover:bg-red-300 duration-300'
+interface Work_data {
+    work : data
+}
+const Work = ( { work } :Work_data ) =>{
     const { name , details , stacks , image , code ,view} = work
     return(
         <div className="flex flex-col lg:flex-row justify-between items-center w-[90%] mx-auto gap-[2rem] hover:bg-[#22303C] duration-500 lg:rounded-lg px-[1rem] py-[2rem] border-b lg:border-0">
@@ -19,7 +21,9 @@ const Work = ( { work } : any | data ) =>{
             
             <div className="flex gap-[1rem]">
                 <a href={code} target="_blank" className={link}>Code</a>
+                {view?
                 <a href={view} target="_blank" className={link}>View</a>
+                :null}
             </div>
         </div>
     )

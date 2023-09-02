@@ -1,7 +1,9 @@
 import { data } from "../data"
 import Work from "./work";
-
-const WorkList = ({Data} : any | data[]) =>{
+interface DataWork {
+    Data : data[]
+}
+const WorkList = ({Data} : DataWork) =>{
     return (
         <>
             {Data.map((work : data , i : number) => {
