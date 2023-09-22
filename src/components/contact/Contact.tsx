@@ -3,7 +3,7 @@ import { FbIcon, GhIcon, IgIcon, TwIcon } from "./contact_icon"
 
 const Contact = () =>{
     return (
-        <div className="bg-[#15202B] text-white pb-[2rem]" id="contact">
+        <div className="bg-[#192734] text-white py-[2rem]" id="contact">
             <div className="w-[80%] mx-auto">
                 <div className="text-5xl font-bold flex items-center gap-[1rem] justify-center mb-[2rem]">
                     <Ping/>

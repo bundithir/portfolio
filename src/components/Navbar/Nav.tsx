@@ -15,8 +15,8 @@ const Navbar = () => {
             :
             null}
             <div className="flex w-[90%] mx-auto justify-between items-center py-[0.5rem]">
-                <div className="flex gap-[1rem] items-center">
-                    <img src="/apple-touch-icon.png" width={45} height={45} alt="logo"/>
+                <div className="flex gap-[1rem] items-center h-[45px]">
+                    <p className="text-lg capitalize text-red-500">bundit</p>
                 </div>
                 <button className="md:hidden" onClick={handleSideOpen}>
                     <BurgerIcon/>

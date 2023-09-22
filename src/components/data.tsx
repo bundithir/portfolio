@@ -10,17 +10,7 @@ export type data = {
 
 
 export const DataProject : data[]= [
-    {
-        name : 'RoboFriend',
-        details : "The project from the Udemy'course that learn about pull free API",
-        stacks : [
-            'React.js' , 'CSS'
-        ],
-        image : '/robo.PNG',
-        code : 'https://github.com/bundithir/robofriends',
-        view : 'https://bundithir.github.io/robofriends/',
-        mb : false
-    },
+
     {
         name : 'Movie-app',
         details : "A movie search app that uses TMDB'API and has API for signin-signup",
