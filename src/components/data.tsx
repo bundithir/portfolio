@@ -24,7 +24,7 @@ export const DataProject : data[]= [
     },
     {
         name : 'E-commerce (old version)',
-        details : "Build an e-commerce application using React.js, connect firebase database, user can signup and signin with google account and have Stripe's payment system.",
+        details : "Build an e-commerce application using React.js, connects firebase database, user can signup and signin with google account and have Stripe's payment system.",
         stacks : [
             'Tailwind CSS' , 'React.js' , 'Firebase' , 'Stripe' , 'Redux-toolkit'
         ],
@@ -35,7 +35,7 @@ export const DataProject : data[]= [
     },
     {
         name : 'E-commerce (TypeScript)',
-        details : "Build an e-commerce application using React.ts and API to pull data for products , API for signin-signup , using AntD table to CRUD products for Admin and have Stripe's payment system.",
+        details : "Build an e-commerce application using React.ts and API that connects with database to pull products’data , API for signin-signup , API for CRUD products only admin account and have Stripe's payment system.",
         stacks : [
             'Tailwind CSS' , 'React.ts' , 'Express.js' , 'PostgreSQL' ,'Stripe' ,'Ant Design', 'Redux-toolkit'
         ],

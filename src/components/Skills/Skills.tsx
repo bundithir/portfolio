@@ -1,8 +1,17 @@
 import Ping from "../ults/ping";
+import 'aos/dist/aos.css'
+import Aos from 'aos'
+import {useEffect} from 'react';
 const Skills = () =>{
+    useEffect(()=>{
+        Aos.init({
+            once : true,     
+            duration : 1500   
+        });
+    },[])
     return (
         <div className="bg-[#15202B] text-white pt-[5rem] md:pt-[8rem]" id="skills">
-            <div className="w-[80%] mx-auto bg-[#22303C] rounded-lg py-[2rem]">
+            <div className="w-[80%] mx-auto bg-[#22303C] rounded-lg py-[2rem]"  data-aos="fade-down">
                 <div className="text-5xl font-bold flex items-center gap-[1rem] justify-center mb-[2rem]">
                     <Ping/>
                     <p>Skills</p>

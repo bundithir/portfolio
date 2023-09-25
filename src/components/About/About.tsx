@@ -1,12 +1,20 @@
+import { useEffect } from "react";
 import Ping from "../ults/ping";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const headerSchool = 'border-b text-center font-bold text-lg py-2'
 const detailUni = 'p-2 text-[#8899A6]'
 const About = () =>{
+    useEffect(()=>{
+        Aos.init({
+            once : true, 
+            duration : 1500     
+        });
+    },[])
     return (
-        <div className="bg-[#15202B] text-white py-[5rem]" id="about">
-            <div className="w-[80%] mx-auto">
-                <div className="text-5xl font-bold flex items-center gap-[1rem] justify-center mb-[2rem]">
+        <div className="bg-[#15202B] text-white py-[5rem]" id="about" >
+            <div className="w-[80%] mx-auto" data-aos="fade-down">
+                <div className="text-5xl font-bold flex items-center gap-[1rem] justify-center mb-[2rem]" >
                     <Ping/>
                     <p>About me</p>
                 </div>

@@ -1,12 +1,20 @@
+import Aos from 'aos'
 import resume from '../../assets/BunditCV.pdf'
+import 'aos/dist/aos.css'
+import {useEffect} from 'react';
 const Intro = () =>{
+    useEffect(()=>{
+        Aos.init({
+            once : true,      
+        });
+    },[])
     return(
         <div className="bg-[#15202B] py-[5rem] w-full">
             <div className="grid grid-row-2 md:grid-cols-2 h-full items-center w-[90%] mx-auto gap-[2rem]">
                 <div className="flex justify-center md:justify-center items-center row-start-2 md:row-start-1">
-                    <img src="/circle.jpg" className="bg-[#15202B] rounded-full drop-shadow-lg" width={400} alt="" />
+                    <img src="/circle.jpg" className="bg-[#15202B] rounded-full drop-shadow-lg" width={400} alt="so cool" data-aos = 'fade-down'  data-aos-duration='1800'/>
                 </div>
-                <div className="text-white text-center md:text-start">
+                <div className="text-white text-center md:text-start" data-aos = 'fade-down' data-aos-duration='1500'>
                     <p>Hi, my name is</p>
                     <p className="text-5xl md:text-3xl pb-2 md:pb-0 font-bold text-[#8899A6] ">Bundit Hirunwongsawang</p>
                     <p className="text-3xl font-bold text-[#8899A6] mb-[1rem]">You can call me Peet</p>

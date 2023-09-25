@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Nav"
 import Projects from "./components/Projects/Projects"
 import Skills from "./components/Skills/Skills"
 import Contact from "./components/contact/Contact"
+
 function App() {
 
   return (

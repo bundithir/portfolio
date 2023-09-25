@@ -1,14 +1,22 @@
 import Ping from "../ults/ping";
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Btn } from "./Projects_style";
 import { DataChallenges , DataProject } from "../data";
 import WorkList from "../ults/worklist";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const Projects = () =>{
+    useEffect(()=>{
+        Aos.init({
+            once : true, 
+            duration : 1500     
+        });
+    },[])
     const [route , Setroute] = useState(true)
     const handleProject = () => Setroute(!route)
     return (
         <div className="bg-[#15202B] text-white py-[9rem]" id="projects">
-            <div className="w-[80%] mx-auto">
+            <div className="w-[80%] mx-auto"  data-aos="fade-down">
                 <div className="text-5xl font-bold flex items-center gap-[1rem] justify-center mb-[2rem]">
                     <Ping/>
                     <p>Projects</p>

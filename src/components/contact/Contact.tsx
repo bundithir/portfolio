@@ -10,7 +10,7 @@ const Contact = () =>{
                     <p>Contact</p>
                 </div>
                     <div className="flex gap-[1rem] justify-center">
-                        <a href="https://www.facebook.com/peet.bundit.71/" target="_blank"><FbIcon/></a>
+                        <a href="https://www.linkedin.com/in/bundit-hirunwongsawang-064b4624b/" target="_blank"><FbIcon/></a>
                         <a href="https://github.com/bundithir" target="_blank"><GhIcon/></a>
                         <a href="https://www.instagram.com/peepi.p/" target="_blank"><IgIcon/></a>
                         <a href="https://twitter.com/peepi0615" target="_blank"><TwIcon/></a>
